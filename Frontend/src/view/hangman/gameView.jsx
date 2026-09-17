@@ -106,6 +106,7 @@ function Hangman() {
 
     return (
           <>
+                 <div className='flex absolute bg-gray-300 m-3 rounded-2xl p-2 font-bold' ><button className='cursor-pointer' onClick={() => navigate('/hangman')}>Back</button></div>
                 <div className="h-screen w-full flex flex-col items-center justify-center sm:flex-row sm:gap-5">
                     
                     <div>

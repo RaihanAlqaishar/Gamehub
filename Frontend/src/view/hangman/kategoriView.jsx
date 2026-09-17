@@ -17,6 +17,7 @@ export default function KategoriView() {
 
     return (
         <>
+            <div className='flex absolute bg-white m-3 rounded-2xl p-2 font-bold' ><button className='cursor-pointer' onClick={() => navigate('/')}>Back</button></div>
             <div className="bg-yellow-400 w-full h-screen flex flex-col items-center justify-center">
 
                 <h1 className="text-3xl text-blue-500 font-bold mb-1">
